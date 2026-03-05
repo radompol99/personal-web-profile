@@ -122,8 +122,35 @@ button:focus-visible {
 
 .fun-fact {
   margin: 0.7rem 0 0;
-  color: var(--muted);
-  min-height: 1.4rem;
+  color: var(--surface);
+  min-height: 2.4rem;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 220ms ease, transform 220ms ease, background-color 220ms ease;
+  background-color: #00145b;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:  0 0 10px rgba(40, 87, 255, 0.5);
+}
+
+.fun-fact.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fun-fact.animate {
+  animation: factPop 280ms ease;
+}
+
+@keyframes factPop {
+  0% {
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .hobby-list {
