@@ -37,7 +37,11 @@ Current page content includes:
 - `index.html` - Main webpage content and structure
 - `styles.css` - Styling and responsive layout
 - `script.js` - Fun fact button behavior
-- `assets/` - Contains the profile image used in the About Me section
+- `assets/` - Contains the web assets /js, /img, /css
+- `assets/js` - Contains the js files
+- `assets/img` - Contains the images
+- `assets/css` - Contains the css files
+
 
 ## How to Run
 
