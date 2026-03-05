@@ -5,7 +5,7 @@ const funFacts = [
   "I can spend hours debugging until everything works.",
   "I enjoy learning one new coding trick each week.",
   "I once rebuilt a webpage design just for practice.",
-  "I founded a startup business to help MSMEs and Local Governments in creating innovative customized progressive web applications.",
+  "I founded a startup business in helping MSMEs and Municipal Governments create websites and web applications.",
 ];
 const factBgColors = ["#00145b", "#c50202"];
 
